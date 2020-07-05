@@ -6,9 +6,10 @@ import java.util.Set;
 /**
  * @author:huangzhen
  * @createTime:2020/7/5 21:34
- * @description:
+ * @description: 单词接龙
  */
 public class LadderLength {
+
 
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         // 先将 wordList 放到哈希表里，便于判断某个单词是否在 wordList 里
@@ -31,8 +32,8 @@ public class LadderLength {
         int step = 1;
         while (!beginVisited.isEmpty() && !endVisited.isEmpty()) {
             // 打开以方便调试
-             System.out.println("beginVisited => " + beginVisited);
-             System.out.println("  endVisited => " + endVisited + "\n");
+            System.out.println("beginVisited => " + beginVisited);
+            System.out.println("  endVisited => " + endVisited + "\n");
 
             // 优先选择小的哈希表进行扩散，考虑到的情况更少
             if (beginVisited.size() > endVisited.size()) {
@@ -55,7 +56,7 @@ public class LadderLength {
                         }
                         charArray[i] = c;
                         String nextWord = String.valueOf(charArray);
-                        System.out.println("=====>"+nextWord);
+                        System.out.println("=====>" + nextWord);
                         if (wordSet.contains(nextWord)) {
                             if (endVisited.contains(nextWord)) {
                                 return step + 1;
@@ -70,7 +71,7 @@ public class LadderLength {
                     charArray[i] = originChar;
                 }
             }
-            System.out.println("visited===>>>"+visited);
+            System.out.println("visited===>>>" + visited);
             // 这一行代表表示从 begin 这一侧向外扩散了一层
             beginVisited = nextLevelVisited;
             step++;
@@ -78,9 +79,53 @@ public class LadderLength {
         return 0;
     }
 
-    public static void main(String[] args) {
-        LadderLength ladderLength = new LadderLength();
-        int i = ladderLength.ladderLength("hit", "cog", Arrays.asList("hot", "dot", "dog", "lot", "log", "cog"));
-        System.out.println(i);
+    public int ladderLengthNo2(String beginWord, String endWord, List<String> wordList) {
+        // 先将 wordList 放到哈希表里，便于判断某个单词是否在 wordList 里
+        Set<String> wordSet = new HashSet<>(wordList);
+        if (wordList.size() == 0 || !wordList.contains(endWord)) {
+            return 0;
+        }
+        // 标准写法，总的 visited 数组
+        Set<String> visited = new HashSet<>();
+
+        Set<String> beginVisited = new HashSet<>();
+        beginVisited.add(beginWord);
+        Set<String> endVisited = new HashSet<>();
+        endVisited.add(endWord);
+
+        int len = beginWord.length();
+        int stp = 1;
+        while (!beginVisited.isEmpty() && !endVisited.isEmpty()) {
+            Set<String> nextLevelVisited = new HashSet<>();
+            for (String word : beginVisited) {
+                char[] chars = word.toCharArray();
+                for (int i = 0; i < len; i++) {
+                    char aChar = chars[i];
+                    for (char c = 'a'; c <= 'z'; c++) {
+                        if (aChar == c) {
+                            continue;
+                        }
+                        chars[i] = c;
+                        String nextWord = String.valueOf(chars);
+                        if (wordSet.contains(nextWord)){
+                            if (endVisited.contains(nextWord)){
+                                return stp+1;
+                            }
+                            if (!visited.contains(nextWord)){
+                                visited.add(nextWord);
+                                nextLevelVisited.add(nextWord);
+                            }
+                        }
+
+                    }
+                    //恢复,下次使用
+                    chars[i] = aChar;
+                }
+            }
+            beginVisited = nextLevelVisited;
+            stp++;
+        }
+
+        return 0;
     }
 }
