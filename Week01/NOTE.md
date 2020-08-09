@@ -1,4 +1,5 @@
 学习心得:
+     
      本周主要学习了几种数据结构，主要包括数组、链表、跳表、栈、队列、优先队列、双端队列以及时间复杂度和空间复杂度的判断。
      
      时间复杂度：
@@ -66,3 +67,46 @@
      1.1 操作受限——只允许在一端插入另一端删除数据。
      
      
+ <p><strong>参考链接</strong></p>
+     <ul>
+     <li><a href="http://developer.classpath.org/doc/java/util/ArrayList-source.html" rel="nofollow">Java 源码分析</a> (ArrayList) </li>
+     <li><a href="https://www.geeksforgeeks.org/implementing-a-linked-list-in-java-using-class/" rel="nofollow">Linked List 的标准实现代码</a></li>
+     <li><a href="http://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/code/LinkedList.java" rel="nofollow">Linked List 示例代码</a></li>
+     <li><a href="http://developer.classpath.org/doc/java/util/LinkedList-source.html">Java 源码分析（LinkedList）</a></li>
+     <li><a href="https://leetcode-cn.com/problems/lru-cache/" rel="nofollow"> LRU 缓存机制</a></li>
+     <li><a href="https://redisbook.readthedocs.io/en/latest/internal-datastruct/skiplist.html" rel="nofollow">跳跃表、为啥 Redis 使用跳表（Skip List）而不是使用 Red-Black？</a></li>
+     </ul> 
+     
+        
+  <h2><strong>Array 实战题目</strong></h2>
+     <ul>
+     <li><a href="https://leetcode-cn.com/problems/two-sum/" rel="noopener nofollow" target="_blank">两数之和</a>（近半年内，字节跳动在面试中考查此题达到 152 次）</li>
+     <li><a href="https://leetcode-cn.com/problems/container-with-most-water/" rel="noopener nofollow" target="_blank">盛最多水的容器</a>（腾讯、百度、字节跳动在近半年内面试常考）</li>
+     <li><a href="https://leetcode-cn.com/problems/move-zeroes/" rel="noopener nofollow" target="_blank">移动零</a>（华为、字节跳动在近半年内面试常考）</li>
+     <li><a href="https://leetcode.com/problems/climbing-stairs/" rel="noopener nofollow" target="_blank">爬楼梯</a>（阿里巴巴、腾讯、字节跳动在半年内面试常考）</li>
+     <li><a href="https://leetcode-cn.com/problems/3sum/" rel="noopener nofollow" target="_blank">三数之和</a>（国内、国际大厂历年面试高频老题）</li>
+     </ul>
+     
+   <h2>Linked List 实战题目</h2>
+   <ul>
+   <li><a href="https://leetcode.com/problems/reverse-linked-list/" rel="noopener nofollow" target="_blank">反转链表</a>（字节跳动、亚马逊在半年内面试常考）</li>
+   <li><a href="https://leetcode.com/problems/swap-nodes-in-pairs" rel="noopener nofollow" target="_blank">两两交换链表中的节点</a>（阿里巴巴、字节跳动在半年内面试常考）</li>
+   <li><a href="https://leetcode.com/problems/linked-list-cycle" rel="noopener nofollow" target="_blank">环形链表</a>（阿里巴巴、字节跳动、腾讯在半年内面试常考）</li>
+   <li><a href="https://leetcode.com/problems/linked-list-cycle-ii" rel="noopener nofollow" target="_blank">环形链表 II </a></li>
+   <li><a href="https://leetcode.com/problems/reverse-nodes-in-k-group/" rel="noopener nofollow" target="_blank"> K 个一组翻转链表</a>（字节跳动、猿辅导在半年内面试常考）</li>
+   </ul>  
+   
+   <h2>实战题目</h2>
+   <ul>
+   <li><a href="https://leetcode-cn.com/problems/largest-rectangle-in-histogram" rel="noopener nofollow" target="_blank">柱状图中最大的矩形</a>（亚马逊、微软、字节跳动在半年内面试中考过）</li>
+   <li><a href="https://leetcode-cn.com/problems/sliding-window-maximum" rel="noopener nofollow" target="_blank">滑动窗口最大值</a>（亚马逊在半年内面试常考）</li>
+   </ul>
+   
+   <h2>课后作业</h2>
+   <ul>
+   <li>用 add first 或 add last 这套新的 API 改写 Deque 的代码</li>
+   <li>分析 Queue 和 Priority Queue 的源码</li>
+   <li><a href="https://leetcode.com/problems/design-circular-deque" rel="noopener nofollow" target="_blank">设计循环双端队列</a>（Facebook 在 1 年内面试中考过）</li>
+   <li><a href="https://leetcode.com/problems/trapping-rain-water/" rel="noopener nofollow" target="_blank">接雨水</a>（亚马逊、字节跳动、高盛集团、Facebook 在半年内面试常考）</li>
+   </ul>
+   <p>说明：改写代码和分析源码这两项作业，同学们需要在第 1 周的学习总结中完成。如果不熟悉 Java 语言，这两项作业可选做。</p>
