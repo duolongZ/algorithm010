@@ -350,3 +350,68 @@ public static void heapSort(int[] array) {
 基数排序
 
 基数排序是按照低位先排序，然后收集； 再按照高位排序， 然后再收集；依次类推，直到最高位。有时候有些属性是有优先级顺序的，先按低优先级排序，再高优先级排序。
+
+<div data-v-1e3bbcc6="" class="article-typo" data-v-4d3195d1=""><h2>参考链接</h2>
+<ul>
+<li><a href="https://zh.wikihow.com/%E4%BB%8E%E5%8D%81%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA%E4%BA%8C%E8%BF%9B%E5%88%B6" rel="noopener nofollow" target="_blank">如何从十进制转换为二进制</a></li>
+</ul></div>
+
+<div data-v-1e3bbcc6="" data-v-4d3195d1="" class="lesson-section"><div data-v-1e3bbcc6="" class="article-typo" data-v-4d3195d1=""><h2>参考链接</h2>
+<ul>
+<li><a href="https://shimo.im/docs/YzWa5ZZrZPYWahK2" rel="noopener nofollow" target="_blank"> N 皇后位运算代码示例</a></li>
+</ul>
+<h2>实战题目 / 课后作业</h2>
+<ul>
+<li><a href="https://leetcode-cn.com/problems/number-of-1-bits/" rel="noopener nofollow" target="_blank">位 1 的个数</a>（Facebook、苹果在半年内面试中考过）</li>
+<li><a href="https://leetcode-cn.com/problems/power-of-two/" rel="noopener nofollow" target="_blank"> 2 的幂</a>（谷歌、亚马逊、苹果在半年内面试中考过）</li>
+<li><a href="https://leetcode-cn.com/problems/reverse-bits/" rel="noopener nofollow" target="_blank">颠倒二进制位</a>（苹果在半年内面试中考过）</li>
+<li><a href="https://leetcode-cn.com/problems/n-queens/description/" rel="noopener nofollow" target="_blank"> N 皇后</a>（字节跳动、亚马逊、百度在半年内面试中考过）</li>
+<li><a href="https://leetcode-cn.com/problems/n-queens-ii/description/" rel="noopener nofollow" target="_blank"> N 皇后 II </a>（亚马逊在半年内面试中考过）</li>
+<li><a href="https://leetcode-cn.com/problems/counting-bits/description/" rel="noopener nofollow" target="_blank">比特位计数</a>（字节跳动、Facebook、MathWorks 在半年内面试中考过）</li>
+</ul></div></div>
+
+<div data-v-1e3bbcc6="" data-v-4d3195d1="" class="lesson-section"><div data-v-1e3bbcc6="" class="article-typo" data-v-4d3195d1=""><h2>参考链接</h2>
+<ul>
+<li><a href="https://www.cnblogs.com/cpselvis/p/6265825.html" rel="noopener nofollow" target="_blank">布隆过滤器的原理和实现</a></li>
+<li><a href="https://blog.csdn.net/tianyaleixiaowu/article/details/74721877" rel="noopener nofollow" target="_blank">使用布隆过滤器解决缓存击穿、垃圾邮件识别、集合判重</a></li>
+<li><a href="https://shimo.im/docs/UITYMj1eK88JCJTH" rel="noopener nofollow" target="_blank">布隆过滤器 Python 代码示例</a></li>
+<li><a href="https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/" rel="noopener nofollow" target="_blank">布隆过滤器 Python 实现示例</a></li>
+<li><a href="https://github.com/jhgg/pybloof" rel="noopener nofollow" target="_blank">高性能布隆过滤器 Python 实现示例</a></li>
+<li><a href="https://github.com/lovasoa/bloomfilter/blob/master/src/main/java/BloomFilter.java" rel="noopener nofollow" target="_blank">布隆过滤器 Java 实现示例 1 </a></li>
+<li><a href="https://github.com/Baqend/Orestes-Bloomfilter" rel="noopener nofollow" target="_blank">布隆过滤器 Java 实现示例 2 </a></li>
+</ul></div></div>
+
+<div data-v-1e3bbcc6="" class="article-typo" data-v-4d3195d1=""><h2>参考链接</h2>
+<ul>
+<li><a href="https://www.sqlpassion.at/archive/2018/01/06/understanding-the-meltdown-exploit-in-my-own-simple-words/" rel="noopener nofollow" target="_blank"> Understanding the Meltdown exploit </a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cache_replacement_policies" rel="noopener nofollow" target="_blank">替换算法总揽</a></li>
+<li><a href="https://shimo.im/docs/CoyPAyXooGcDuLQo" rel="noopener nofollow" target="_blank"> LRU Cache Python 代码示例</a></li>
+</ul>
+<h2>实战题目 / 课后作业</h2>
+<ul>
+<li><a href="https://leetcode-cn.com/problems/lru-cache/#/" rel="noopener nofollow" target="_blank"> LRU 缓存机制</a>（亚马逊、字节跳动、Facebook、微软在半年内面试中常考）</li>
+</ul></div>
+
+<div data-v-1e3bbcc6="" class="article-typo" data-v-4d3195d1=""><h2>参考链接</h2>
+<ul>
+<li><a href="https://www.cnblogs.com/onepixel/p/7674659.html" rel="noopener nofollow" target="_blank">十大经典排序算法</a></li>
+<li><a href="https://shimo.im/docs/TX9bDbSC7C0CR5XO" rel="noopener nofollow" target="_blank">快速排序代码示例</a></li>
+<li><a href="https://shimo.im/docs/sDXxjjiKf3gLVVAU" rel="noopener nofollow" target="_blank">归并排序代码示例</a></li>
+<li><a href="https://shimo.im/docs/M2xfacKvwzAykhz6" rel="noopener nofollow" target="_blank">堆排序代码示例</a></li>
+</ul></div>
+
+<div data-v-1e3bbcc6="" class="article-typo" data-v-4d3195d1=""><h2>参考链接</h2>
+<ul>
+<li><a href="https://www.cnblogs.com/onepixel/p/7674659.html" rel="noopener nofollow" target="_blank">十大经典排序算法</a></li>
+<li><a href="https://www.bilibili.com/video/av25136272" rel="noopener nofollow" target="_blank"> 9 种经典排序算法可视化动画</a></li>
+<li><a href="https://www.bilibili.com/video/av63851336" rel="noopener nofollow" target="_blank"> 6 分钟看完 15 种排序算法动画展示</a></li>
+</ul>
+<h2>实战题目 / 课后作业</h2>
+<ul>
+<li><a href="https://leetcode-cn.com/problems/relative-sort-array/" rel="noopener nofollow" target="_blank">数组的相对排序</a>（谷歌在半年内面试中考过）</li>
+<li><a href="https://leetcode-cn.com/problems/valid-anagram/" rel="noopener nofollow" target="_blank">有效的字母异位词</a>（Facebook、亚马逊、谷歌在半年内面试中考过）</li>
+<li><a href="https://leetcode-cn.com/problems/design-a-leaderboard/" rel="noopener nofollow" target="_blank">力扣排行榜</a>（Bloomberg 在半年内面试中考过）</li>
+<li><a href="https://leetcode-cn.com/problems/merge-intervals/" rel="noopener nofollow" target="_blank">合并区间</a>（Facebook、字节跳动、亚马逊在半年内面试中常考）</li>
+<li><a href="https://leetcode-cn.com/problems/reverse-pairs/" rel="noopener nofollow" target="_blank">翻转对</a>（字节跳动在半年内面试中考过）</li>
+</ul></div>
+
